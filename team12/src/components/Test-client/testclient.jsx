@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom"
 import Popup from 'reactjs-popup';
+import './styles.css'
 
 export function TestClient(){
 
     return(
-        <div>
+        <div className="main-test">
             <h1>Test de diagnóstico digital</h1>
             <h2>Test desplegable con respuestas si/no</h2>
             <h4> ¿Dispones de acciones para sensibilizar a tus empleados sobre cuestiones relacionadas con la seguridad en materia de tecnologías de la información y comunicación (TIC)?</h4>

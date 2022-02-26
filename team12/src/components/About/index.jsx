@@ -1,8 +1,25 @@
+import './styles.css'
+
 export function About(){
     return(
-        <div>
-            <h1>About</h1>
-            <p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."</p>
+        <div className="main-about">
+            <h1>Acerca de DigiLover</h1>
+            <h3>PROPUESTA DE VALOR</h3>
+            <li>Ayudamos a PYMES y autónomos a digitalizar y optimizar sus procesos de negocio a través de un “mix & match” con profesionales digitales.</li>
+
+            <li>La estrategia digital te permite describir cómo quieres conseguir aquello que te has propuesto en tu comercio, y te permite disminuir errores y corregirlos de una manera más ágil. Recuerda, una buena estrategia y unos objetivos bien definidos te ayudarán a adaptarte a los cambios y retos derivados de la digitalización pudiendo satisfacer las necesidades de tus consumidores.</li>
+
+            <li>La estrategia digital será la guía detallada de todos los pasos que llevarás a cabo en la digitalización de tu comercio, ¿a qué esperas para ponerla marcha?
+            </li>
+            <h3>Objetivos</h3>
+            <li>Amplía tus capacidades asociándote con otras organizaciones que cuentan con distintas habilidades tecnológicas para hacer productos y servicios aún más fuertes, e incrementar tu visibilidad.
+            Aumenta tu grupo de clientes y socios, dando lugar a nuevas oportunidades de crecer y aprender de aquellos negocios que tienen mejores resultados.
+            </li>
+            <li>Consigue contratos con distintos clientes. De esta forma, tu comercio se verá mucho más atractivo debido a su versatilidad.
+            Promueve una cultura digital entre los empleados de tu comercio, rodeándote de aquellas personas que están comprometidas con el negocio y las prioridades del cliente.
+            </li>
+
+
         </div>
     )
 }
